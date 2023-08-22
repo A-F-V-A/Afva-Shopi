@@ -1,4 +1,4 @@
-export interface Pokedex {
+export interface Product {
     id:          number;
     title:       string;
     price:       number;
@@ -11,4 +11,8 @@ export interface Pokedex {
 export interface Rating {
     rate:  number;
     count: number;
+}
+
+export interface StateProduct{
+    count: number
 }

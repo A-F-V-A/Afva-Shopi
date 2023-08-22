@@ -16,6 +16,7 @@ export const Home = () => {
       <div className="grid gap-4 grid-cols-4 w-full max-w-screen-lg">
         { products?.map( ({ id,title,price,description,category,image }) => (
             <Card
+              id={id}
               key={id}
               title={title}
               price={price}
